@@ -1,0 +1,17 @@
+int sockfd = socket(int domain, int type, int protocol)
+
+sockfd is a variable which tells us that socket functionis returning somerthing
+
+socket has three argumnts
+1. specifies the comunication domain  --- it signifies the address family
+        In our case it is AF_INET which IPv4 protocol
+2. specifies the communication type ---- we using two types
+            i) SOCK_STREAM  ---> TCP
+            ii) SOCK_DORAM ---> UDP
+
+        In our case we use (i) one
+
+3. specifies the protocol
+        in this case we use 0
+
+
